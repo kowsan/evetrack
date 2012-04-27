@@ -11,8 +11,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    watchform.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    watchform.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    watchform.ui
+
+RESOURCES += \
+    res.qrc
